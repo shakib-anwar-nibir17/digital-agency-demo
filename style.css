@@ -185,3 +185,83 @@ li{
 small{
   font-size: 10px;
 }
+.appointment-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  background-color: red;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: -85px;
+  color: white;
+}
+.phone-call{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 25%;
+  gap: 25px;
+  border-right: 2px solid grey;
+}
+.appointment-description{
+  width: 40%;
+  font-size: 20px;
+  margin-left: -50px;
+}
+.btn-5{
+  padding: 15px 55px;
+  font-size: 16px;
+  border: none;
+  margin: 5px;
+  border-radius: 25px;
+  color: black;
+  margin-left: -30px;
+ 
+}
+.block-container{
+  width: 80%;
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+
+}
+.block-title{
+  font-size: 55px;
+  padding-bottom: 15px;
+}
+.block-description{
+  font-size: 24px;
+}
+.blog-img{
+  width: 100%;
+  border-radius: 5px;
+}
+.cards{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 240px;
+  padding-bottom: 40px;
+}
+.card{
+  width:370px;
+  height: 450px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 4px grey;
+    /* background-color: grey; */
+}
+.blog-title{
+  padding-top:20px;
+  font-size: 28px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+.blog-description{
+    font-size: 24px;
+    text-align: justify;
+}
