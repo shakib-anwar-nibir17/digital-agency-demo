@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-container {
+  display: flex;
+  background-color: grey;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.menus {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  font-style: 17px;
+  color: white;
+  cursor: pointer;
+}
+.banner-container {
+  height: 100vh;
+  background-image: url("./asset/image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.primary {
+  color: red;
+}
+.banner-title {
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+}
+.banner-description {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.btn-primary {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.4s;
+}
+.btn-1 {
+  background-color: red;
+  color: white;
+}
+.btn-2 {
+  color: red;
+  background-color: white;
+}
+.btn-1:hover {
+  color: red;
+  background-color: white;
+}
+.btn-2:hover {
+  background-color: red;
+  color: white;
+}
